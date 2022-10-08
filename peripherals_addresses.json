@@ -1,0 +1,10 @@
+{
+  "97": {
+    "router": "0xD36e39a29dBdF0f1f02B271B165f9f08BECB631c",
+    "weth": "0x69c5207A60C8e34311E44A2E10afa0CB4dbFC8df"
+  },
+  "1337": {
+    "router": "0x523580f8c1aA99C24Df56E5A6F286865B6B21cD6",
+    "weth": "0x5A068224782711D234fdB3C5d660291bb79bcCd4"
+  }
+}

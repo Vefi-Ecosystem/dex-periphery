@@ -25,6 +25,7 @@
     "@nomiclabs/hardhat-web3": "^2.0.0",
     "@openzeppelin/contracts": "^4.7.3",
     "chai": "^4.2.0",
+    "dotenv": "^16.0.3",
     "ethereum-waffle": "^2.4.1",
     "ethers": "^5.7.1",
     "hardhat": "^2.11.2",
@@ -38,7 +39,9 @@
     "precompile": "yarn clean",
     "compile": "npx hardhat compile",
     "pretest": "yarn compile",
-    "prepublishOnly": "yarn test"
+    "prepublishOnly": "yarn test",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network local",
+    "deploy:bsc:testnet": "npx hardhat run scripts/deploy.js --network bsc_testnet"
   },
   "license": "GPL-3.0-or-later"
 }
