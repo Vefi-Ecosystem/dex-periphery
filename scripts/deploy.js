@@ -4,12 +4,17 @@ const fs = require("fs");
 
 const factory_addresses = {
   1337: "0xB21887698d5c4D9E4e02c5f7EBDf2Cc1d81Adf5B",
+  97: "0x583DD96cD23602979333B98bB81dFd22b55faa46",
 };
 
 const weths = {
   1337: {
     name: "Wrapped Local Ether",
     symbol: "WLETH",
+  },
+  97: {
+    name: "Wrapped tBNB",
+    symbol: "WtBNB",
   },
 };
 
