@@ -5,6 +5,7 @@ const fs = require("fs");
 const factory_addresses = {
   1337: "0xB21887698d5c4D9E4e02c5f7EBDf2Cc1d81Adf5B",
   97: "0x583DD96cD23602979333B98bB81dFd22b55faa46",
+  32520: "0x46e65AfC0BBF7cc037D82AC2eA9aaf560dD962Cc"
 };
 
 const weths = {
@@ -16,6 +17,10 @@ const weths = {
     name: "Wrapped tBNB",
     symbol: "WtBNB",
   },
+  32520: {
+    name: "Wrapped Brise",
+    symbol: "WBRISE"
+  }
 };
 
 (async () => {
