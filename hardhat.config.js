@@ -20,6 +20,11 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY],
       chainId: 97,
     },
+    bitgert_mainnet: {
+      url: 'https://rpc.icecreamswap.com',
+      accounts: [process.env.PRIVATE_KEY],
+      chainId: 32520
+    }
   },
   etherscan: {
     apiKey: {
