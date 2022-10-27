@@ -5,7 +5,11 @@ const fs = require("fs");
 const factory_addresses = {
   1337: "0xB21887698d5c4D9E4e02c5f7EBDf2Cc1d81Adf5B",
   97: "0x583DD96cD23602979333B98bB81dFd22b55faa46",
-  32520: "0x46e65AfC0BBF7cc037D82AC2eA9aaf560dD962Cc"
+  32520: "0x46e65AfC0BBF7cc037D82AC2eA9aaf560dD962Cc",
+  56: "0x6A6CFF59de25175A5BC9e4796C88a73b2c581b49",
+  86: "0xb562b09Bc2317D18a82FD415B7Fb33540Db7e723",
+  311: "0x64FAF984Bf60dE19e24238521814cA98574E3b00",
+  43114: "0xF1B1c2f4E8FcD4aFCA0E608B1c7dB8b4e700154F",
 };
 
 const weths = {
@@ -19,8 +23,24 @@ const weths = {
   },
   32520: {
     name: "Wrapped Brise",
-    symbol: "WBRISE"
-  }
+    symbol: "WBRISE",
+  },
+  56: {
+    name: "Wrapped BNB",
+    symbol: "WBNB",
+  },
+  86: {
+    name: "Wrapped Gatecoin",
+    symbol: "WGATE",
+  },
+  311: {
+    name: "Wrapped OMAX",
+    symbol: "WOMAX",
+  },
+  43114: {
+    name: "Wrapped AVAX",
+    symbol: "WAVAX",
+  },
 };
 
 (async () => {
