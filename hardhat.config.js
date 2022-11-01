@@ -60,6 +60,11 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY],
       chainId: 56,
     },
+    wanchain_mainnet: {
+      url: 'https://gwan-ssl.wandevs.org:56891',
+      accounts: [process.env.PRIVATE_KEY],
+      chainId: 888,
+    }
   },
   etherscan: {
     apiKey: {
