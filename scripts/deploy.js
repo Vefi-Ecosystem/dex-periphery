@@ -10,7 +10,8 @@ const factory_addresses = {
   86: "0xb562b09Bc2317D18a82FD415B7Fb33540Db7e723",
   311: "0x64FAF984Bf60dE19e24238521814cA98574E3b00",
   43114: "0xF1B1c2f4E8FcD4aFCA0E608B1c7dB8b4e700154F",
-  888: "0x64FAF984Bf60dE19e24238521814cA98574E3b00"
+  888: "0x64FAF984Bf60dE19e24238521814cA98574E3b00",
+  66: "0x64FAF984Bf60dE19e24238521814cA98574E3b00",
 };
 
 const weths = {
@@ -44,8 +45,12 @@ const weths = {
   },
   888: {
     name: "Wrapped WAN",
-    symbol: "WWAN"
-  }
+    symbol: "WWAN",
+  },
+  66: {
+    name: "Wrapped OKX",
+    symbol: "WOKX",
+  },
 };
 
 (async () => {
