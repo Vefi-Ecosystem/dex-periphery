@@ -20,7 +20,7 @@ const weths = {
   86: "0x5CaD84E500d73A9bcCdeB21eDD9720FFb7531c56",
   311: "0x2e19F01B81628CCd8cFce9F7d9F2fACC77343b7c",
   888: "0x2e19F01B81628CCd8cFce9F7d9F2fACC77343b7c",
-  66: "0xf886ABaCe837E5EC0CF7037B4d2198F7a1bf35B5"
+  66: "0xf886ABaCe837E5EC0CF7037B4d2198F7a1bf35B5",
 };
 
 (async () => {
@@ -41,7 +41,7 @@ const weths = {
     let contentJSON = JSON.parse(contentBuf.toString());
     contentJSON = {
       ...contentJSON,
-      [network.config.chainId]: router.address
+      [network.config.chainId]: router.address,
     };
     fs.writeFileSync(location, JSON.stringify(contentJSON, undefined, 2));
   } else {
@@ -49,7 +49,7 @@ const weths = {
       location,
       JSON.stringify(
         {
-          [network.config.chainId]: router.address
+          [network.config.chainId]: router.address,
         },
         undefined,
         2
