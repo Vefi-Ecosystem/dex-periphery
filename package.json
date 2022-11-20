@@ -1,6 +1,6 @@
 {
   "name": "quasar-v1-periphery",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Peripheral smart contracts for interacting with the Vefi DEX",
   "engines": {
     "node": ">=10"
