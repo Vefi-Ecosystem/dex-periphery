@@ -12,6 +12,7 @@ const factory_addresses = {
   43114: "0xF1B1c2f4E8FcD4aFCA0E608B1c7dB8b4e700154F",
   888: "0x64FAF984Bf60dE19e24238521814cA98574E3b00",
   66: "0x64FAF984Bf60dE19e24238521814cA98574E3b00",
+  1: '0x2CF6165c121EFadab70C42CEd85De8f742B29AA4'
 };
 
 const weths = {
@@ -51,6 +52,10 @@ const weths = {
     name: "Wrapped OKX",
     symbol: "WOKX",
   },
+  1: {
+    name: "Wrapped Ether",
+    symbol: "WETH"
+  }
 };
 
 (async () => {

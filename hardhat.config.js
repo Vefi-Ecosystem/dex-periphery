@@ -36,7 +36,7 @@ module.exports = {
       chainId: 86,
     },
     ethereum_mainnet: {
-      url: "https://1rpc.io/eth",
+      url: "https://eth.llamarpc.com",
       accounts: [process.env.PRIVATE_KEY],
       chainId: 1,
     },
