@@ -36,14 +36,14 @@ module.exports = {
       chainId: 86,
     },
     ethereum_mainnet: {
-      url: "https://eth.llamarpc.com",
+      url: "https://eth-rpc.gateway.pokt.network",
       accounts: [process.env.PRIVATE_KEY],
       chainId: 1,
     },
     matic_mainnet: {
-      url: "https://matic.slingshot.finance",
+      url: 'https://matic-mainnet.chainstacklabs.com',
       accounts: [process.env.PRIVATE_KEY],
-      chainId: 137,
+      chainId: 137
     },
     avalanche_mainnet: {
       url: "https://1rpc.io/avax/c",
