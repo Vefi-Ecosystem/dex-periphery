@@ -26,7 +26,7 @@ module.exports = {
       chainId: 32520,
     },
     telos_mainnet: {
-      url: "https://rpc2.eu.telos.net/evm",
+      url: "https://mainnet.telos.net/evm",
       accounts: [process.env.PRIVATE_KEY],
       chainId: 40,
     },
@@ -41,9 +41,9 @@ module.exports = {
       chainId: 1,
     },
     matic_mainnet: {
-      url: 'https://matic-mainnet.chainstacklabs.com',
+      url: "https://matic-mainnet.chainstacklabs.com",
       accounts: [process.env.PRIVATE_KEY],
-      chainId: 137
+      chainId: 137,
     },
     avalanche_mainnet: {
       url: "https://1rpc.io/avax/c",
