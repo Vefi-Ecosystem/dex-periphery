@@ -12,8 +12,9 @@ const factory_addresses = {
   43114: "0xF1B1c2f4E8FcD4aFCA0E608B1c7dB8b4e700154F",
   888: "0x64FAF984Bf60dE19e24238521814cA98574E3b00",
   66: "0x64FAF984Bf60dE19e24238521814cA98574E3b00",
-  1: '0x2CF6165c121EFadab70C42CEd85De8f742B29AA4',
-  137: '0xcA01ffA17C46ba079572147EDE463B9F0690e1e6'
+  1: "0x2CF6165c121EFadab70C42CEd85De8f742B29AA4",
+  137: "0xcA01ffA17C46ba079572147EDE463B9F0690e1e6",
+  40: "0x0f3f2b6BE393A2536291F1e93471C7fEFf7Fed96",
 };
 
 const weths = {
@@ -55,12 +56,16 @@ const weths = {
   },
   1: {
     name: "Wrapped Ether",
-    symbol: "WETH"
+    symbol: "WETH",
   },
   137: {
     name: "Wrapped Matic",
-    symbol: "WMATIC"
-  }
+    symbol: "WMATIC",
+  },
+  40: {
+    name: "Wrapped Telos",
+    symbol: "WTLOS",
+  },
 };
 
 (async () => {
