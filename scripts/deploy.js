@@ -15,6 +15,7 @@ const factory_addresses = {
   1: "0x2CF6165c121EFadab70C42CEd85De8f742B29AA4",
   137: "0xcA01ffA17C46ba079572147EDE463B9F0690e1e6",
   40: "0x0f3f2b6BE393A2536291F1e93471C7fEFf7Fed96",
+  592: "0x2CF6165c121EFadab70C42CEd85De8f742B29AA4",
 };
 
 const weths = {
@@ -65,6 +66,10 @@ const weths = {
   40: {
     name: "Wrapped Telos",
     symbol: "WTLOS",
+  },
+  592: {
+    name: "Wrapped Astar",
+    symbol: "WASTR",
   },
 };
 
